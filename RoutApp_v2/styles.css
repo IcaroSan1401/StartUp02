@@ -8,6 +8,13 @@ body {
     padding: 0;
 }
 
+/* Tamanho da fonte dos links do menu de navegação */
+.navbar-nav .nav-link {
+    font-size: 1.4rem; /* Ajuste o valor para o tamanho desejado */
+    font-weight: bold; /* Torna o texto mais destacado */
+}
+
+
 /* Header */
 header {
     background: url('sua-imagem-de-fundo.jpg') no-repeat center center/cover; /* Imagem de fundo */
@@ -26,6 +33,84 @@ h1 {
     font-size: 3rem; /* Tamanho de fonte menor */
     font-weight: normal; /* Peso de fonte normal */
 }
+
+/* Seção de Preços */
+.pricing-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.pricing-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.pricing-section p {
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+
+/* Cards de Preços */
+.pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.pricing-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.price {
+    font-size: 2rem;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.price span {
+    font-size: 1rem;
+    color: #666;
+}
+
+.description {
+    font-size: 1rem;
+    color: #666;
+    margin: 20px 0;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.features li {
+    font-size: 1rem;
+    color: #333;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.features li:last-child {
+    border-bottom: none;
+}
+
+
+
 
 /* Botão de contato */
 .btn-light {
@@ -89,4 +174,13 @@ h2 {
 
 .text-info {
     color: #40e0d0; /* Turquesa */
+}
+
+/* Classes de espaçamento vertical */
+.pb-5, .py-5 {
+    padding-bottom: 10rem !important;
+}
+
+.pt-5, .py-5 {
+    padding-top: 10rem !important;
 }
